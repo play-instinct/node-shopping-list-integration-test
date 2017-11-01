@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: G+6+0LdaVHs+bkVBtFWF6yjFpooheRNxUiP4LksMa+/g+jq8NhxaQb0WCxOSESPUWqWjjN3aFycRxdT+aZBgplV83SvaAfNBlSbA0W6L2gdkuwcyal3+yPVZoWffGh9TeLDnwfnlG0qdieKz+32WIO1g+fEUU7y/eOCqydj6vdoR64gJG9jIpqG6l4gnLZtw4Atmw8AZwQysOwuoIVzIruXJ2HR4TQBX8t6nBvC6qTWNrA04LizTHWsEaBjPJxNzpdI1vxOnYm8tWjsqXZA6NXFgxDogQCIKkPEl1vfahQmEit0kOrHBA1rdqa8eBoe6sA6sAMNj1CnQI0nsUDMd3wFZ2OA/z6R/JpnJBuk7V0VQUAz+RrQvBuS4rOYk0AlVCuJJuZL/BSwwU9YjXn6eCKySxsqKs+vAJtXxdp1FBfJM80dUoYFB7OZ1W5oXF/Jni+KgUYGx0nfSnuUh/EtE4MaEsdMq39yleGGWoN7viADnaiLUR49aUket9cbvtAg9ad1TDXQLZyIojUCaAMWe2gPjSigw+b7G73EYpA2EA6JDNcew+JDe1wf3vpzS48wZ6LTTCrKD/YnwobInXDw+//fXz5cmqfRFzbNz98tg+hOTpQU5oEwm0FyNoTs6CcPGzvMMDhXI09R7FWpj0aQTTXekzVAs9//cfUIVOKC/cLI=
+  app: guarded-basin-41630
+  on:
+    repo: play-instinct/node-shopping-list-integration-test
